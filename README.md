@@ -1,9 +1,9 @@
 # DataPlotCSV
-A easy and best form to see your orders to month and years in a simple chart figure <br>
-Make in python using the framework pyplot, this program was made for facility your produtivity and make best decisions in your enterprise
+An easy and best form to see your orders to month and years in a simple chart figure <br>
+Make in python using the framework pyplot, this program was made for facilitate your productivity and make best decisions in your enterprise
 
 # Description
-Thats project get csv files and "transform" the information in a 2 types of chart, circle chart, and bar chart <br>
+This project reads CSV files and "transform" 2 types of charts: pie chart, and bar chart <br>
 Is recomended use the circle chart for the products sales in years example: 
 
 | Most Order Items: | --- | Min and Max order of apple in months: |
@@ -18,7 +18,7 @@ Is recomended use the circle chart for the products sales in years example:
 
 ---
 <div align="center">
-<h3><strog> EXAMPLE OF INFORMATIONS WITH PYPLOT </strog></h3>
+<h3><strong> EXAMPLE OF INFORMATIONS WITH PYPLOT </strong></h3>
 <a href="#"><img src="image.png"></img></a>
 </div>
 
@@ -28,12 +28,12 @@ Is recomended use the circle chart for the products sales in years example:
 - ```pip install matplotlib```
 # How to use
 
-- You need two archives .csv, first saying all orders in a year or another thing, and second saying the especific item sale in a year
-- Start the code (```python csvChart.py```)
+- You need two CSV files, first containing all orders in a year or another thing, and second saying the especific item sale in a year
+- Start the code (```python project.py```)
 - Insert the file path of first csv file and after the second csv file
 - Tada! The first file will turn a circle chart and second a bar chart
 
 Another way to start code without after insert the file path is insert in command
-example: (```python csvChart.py allorders pepperoniInYear```)
+example: (```python project.py allorders pepperoniInYear```)
 # Youtube Video
 Click [here](https://youtu.be/PbN-GhUjSq4)
