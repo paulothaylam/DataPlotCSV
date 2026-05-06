@@ -35,7 +35,7 @@ def split_values(data):
     field = data['fieldnames']
     for row in data['values']:
         labels.append( row.get( field[0] ) )
-        size_nums.append( float(row.get( field[1] )) )
+        size_nums.append( float(row.get( field[1], 0 )) )
 
     return labels, size_nums
 
