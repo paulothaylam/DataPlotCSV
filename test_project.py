@@ -10,13 +10,13 @@ def test_split_data():
         ]
     }
 
-    assert split_values(t_data) == (['Pepperoni', 'Broccoli'], ['100', '30'])
+    assert split_values(t_data) == (['Pepperoni', 'Broccoli'], [100., 30.])
 
     t_data["values"].pop()
-    assert split_values(t_data) == (['Pepperoni'], ['100'])
+    assert split_values(t_data) == (['Pepperoni'], [100.])
 
     t_data['fieldnames'][1] = 'number'
-    assert split_values(t_data) == (['Pepperoni'], [None])
+    assert split_values(t_data) == (['Pepperoni'], [0.])
 
 def test_errors():
     # Putting special characters in filename to invalid them
