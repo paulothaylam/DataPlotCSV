@@ -61,7 +61,7 @@ def get_csv_file(path = None):
         if not path: path = input("Insert the file csv path: ").strip()
 
         ## Catch error in open a csv folder (File not exist error and a default csv error)
-        try: open_csv_file(path)
+        try: return open_csv_file(path)
         except FileNotFoundError: warning_print('File not found')
         except csv.Error: warning_print('This file is not a csv')
 
